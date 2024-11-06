@@ -10,11 +10,11 @@ msgstr ""
 "PO-Revision-Date: 2023-12-30 08:41+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
-"Language: es\n"
 "X-Generator: Poedit 2.4.3\n"
 
 #. module: bookstore_mgmt
@@ -30,7 +30,6 @@ msgstr "Autor"
 #: model:ir.actions.act_window,name:bookstore_mgmt.action_product_book_authors
 #: model:ir.model,name:bookstore_mgmt.model_product_book_author
 #: model:ir.ui.menu,name:bookstore_mgmt.menu_product_books_authors
-#: model_terms:ir.ui.view,arch_db:bookstore_mgmt.view_product_book_author_tree
 msgid "Authors"
 msgstr "Autores"
 
@@ -97,7 +96,6 @@ msgstr "Editorial"
 #: model:ir.actions.act_window,name:bookstore_mgmt.action_product_book_editorials
 #: model:ir.model,name:bookstore_mgmt.model_product_book_editorial
 #: model:ir.ui.menu,name:bookstore_mgmt.menu_product_books_editorials
-#: model_terms:ir.ui.view,arch_db:bookstore_mgmt.view_product_book_editorial_tree
 #, fuzzy
 msgid "Editorials"
 msgstr "Editoriales"
@@ -115,7 +113,6 @@ msgstr "Género"
 #: model:ir.actions.act_window,name:bookstore_mgmt.action_product_book_genres
 #: model:ir.model,name:bookstore_mgmt.model_product_book_genre
 #: model:ir.ui.menu,name:bookstore_mgmt.menu_product_books_genres
-#: model_terms:ir.ui.view,arch_db:bookstore_mgmt.view_product_book_genre_tree
 msgid "Genres"
 msgstr "Géneros"
 
@@ -132,13 +129,6 @@ msgstr "ID"
 #, fuzzy
 msgid "Is a book"
 msgstr "Es un libro"
-
-#. module: bookstore_mgmt
-#: model:ir.model.fields,field_description:bookstore_mgmt.field_product_book_author____last_update
-#: model:ir.model.fields,field_description:bookstore_mgmt.field_product_book_editorial____last_update
-#: model:ir.model.fields,field_description:bookstore_mgmt.field_product_book_genre____last_update
-msgid "Last Modified on"
-msgstr "Última modificación el"
 
 #. module: bookstore_mgmt
 #: model:ir.model.fields,field_description:bookstore_mgmt.field_product_book_author__write_uid
@@ -183,3 +173,6 @@ msgstr "Usuario"
 #, fuzzy
 msgid "Year of Edition"
 msgstr "Año de edición"
+
+#~ msgid "Last Modified on"
+#~ msgstr "Última modificación el"
