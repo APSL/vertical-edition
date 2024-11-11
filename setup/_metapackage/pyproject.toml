@@ -1,8 +1,9 @@
 [project]
 name = "odoo-addons-oca-vertical-edition"
-version = "17.0.20241106.0"
+version = "17.0.20241111.0"
 dependencies = [
     "odoo-addon-bookstore_mgmt>=17.0dev,<17.1dev",
+    "odoo-addon-bookstore_mgmt_google_books_api>=17.0dev,<17.1dev",
 ]
 classifiers=[
     "Programming Language :: Python",
