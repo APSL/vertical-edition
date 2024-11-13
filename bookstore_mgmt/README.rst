@@ -78,10 +78,13 @@ promote its widespread use.
 .. |maintainer-peluko00| image:: https://github.com/peluko00.png?size=40px
     :target: https://github.com/peluko00
     :alt: peluko00
+.. |maintainer-miquelalzanillas| image:: https://github.com/miquelalzanillas.png?size=40px
+    :target: https://github.com/miquelalzanillas
+    :alt: miquelalzanillas
 
-Current `maintainer <https://odoo-community.org/page/maintainer-role>`__:
+Current `maintainers <https://odoo-community.org/page/maintainer-role>`__:
 
-|maintainer-peluko00| 
+|maintainer-peluko00| |maintainer-miquelalzanillas| 
 
 This module is part of the `OCA/vertical-edition <https://github.com/OCA/vertical-edition/tree/17.0/bookstore_mgmt>`_ project on GitHub.
 
