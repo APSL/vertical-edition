@@ -33,7 +33,7 @@ class Product(models.Model):
                                 book.published_date, "%Y-%m-%d"
                             ).year
                         except Exception:
-                            published_year = book.published_date
+                            published_year = int(book.published_date[:4])
 
                         data["year_edition"] = published_year
 
